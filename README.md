@@ -6,3 +6,5 @@ Run at startup
 `nano /etc/rc.local`
 
 `python3 /home/pi/mbus-hat-enable/enable-mbus.py`
+
+Port: /dev/ttyAMA0
