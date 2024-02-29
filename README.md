@@ -1,10 +1,10 @@
 # mbus-hat-enable
 Enable / Disable Packom M-BUS HAT
 
-Run at startup 
+Run at startup:
 
-`nano /etc/rc.local`
+`crontab -e`
 
-`python3 /home/pi/mbus-hat-enable/enable-mbus.py`
+`@reboot /home/pi/mbus-hat-enable/enable-mbus.py`
 
-Port: /dev/ttyAMA0
+Port: `/dev/ttyAMA0`

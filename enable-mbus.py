@@ -1,3 +1,7 @@
+#! /usr/bin/python3
+
+print('Enabling MBUS...')
+
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
 
