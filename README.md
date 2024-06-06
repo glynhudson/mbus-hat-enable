@@ -5,6 +5,6 @@ Run at startup:
 
 `crontab -e`
 
-`@reboot /home/pi/mbus-hat-enable/enable-mbus.py`
+`@reboot python3 /home/pi/mbus-hat-enable/enable-mbus.py`
 
 Port: `/dev/ttyAMA0`
